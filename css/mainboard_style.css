@@ -1,0 +1,74 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 10px auto;
+}
+
+.fa-laptop {
+  font-size: 1.8rem;
+  margin-right: 10px;
+  color: #4a148c;
+}
+
+#container {
+  padding: 10px;
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+div {
+  padding: 10px;
+}
+
+h4 {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  padding: 3px;
+}
+
+#free_board {
+  width: 55%;
+  height: auto;
+  float: left;
+}
+
+#hot_board, #info_board, #book_board {
+  width: 45%;
+  height: auto;
+  float: right;
+}
+
+p {
+  padding: 5px 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+p:hover {
+  color: #888;
+  text-decoration: underline;
+}
+
+@media (max-width: 980px) {
+  #container {
+    width: 90%
+  }
+  #container div {
+    width: 100%;
+    height: auto;
+  }
+}

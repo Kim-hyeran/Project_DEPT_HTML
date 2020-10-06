@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Board Write</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/boardwrite_style.css" />
+</head>
+
+<body>
+  <form>
+    <div class="write_title">
+      <select name="category" id="category">
+        <option value="license">자격증</option>
+        <option value="contest">공모전</option>
+        <option value="tip">꿀팁</option>
+        <option value="recommend">추천</option>
+        <option value="review">후기</option>
+      </select>
+      <label class="title_label">제목</label><input class="title_input" placeholder="제목을 입력하세요" />
+    </div>
+    <div class="write_body">
+      <textarea name="ir1" id="ir1" rows="10" cols="100" placeholder="내용을 입력하세요"></textarea>
+    </div>
+    <div><label>파일 첨부</label><input type="file" id="write_file" /></div>
+    <div class="write_submit">
+      <button>취소</button>
+      <button>등록</button>
+    </div>
+  </form>
+  <!-- 스마트 에디터 설치 방법 http://naver.github.io/smarteditor2/user_guide/2_install/setting.html -->
+</body>
+
+</html>
