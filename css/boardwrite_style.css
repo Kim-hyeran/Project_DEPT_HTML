@@ -5,6 +5,18 @@
   font-size: 0.9rem;
 }
 
+h2 {
+  font-size: 2rem;
+  margin: 10px auto;
+  padding-top: 30px;
+}
+
+.fa-pen-nib {
+  font-size: 1.8rem;
+  margin-right: 10px;
+  color: #4a148c;
+}
+
 form {
   display: block;
   justify-content: center;
@@ -12,11 +24,9 @@ form {
   margin: auto;
   width: 50%;
   height: auto;
-  padding: 10px;
 }
 
 div.write_title {
-  padding: 10px 0;
   display: flex;
 }
 

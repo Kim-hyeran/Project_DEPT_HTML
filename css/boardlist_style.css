@@ -5,6 +5,28 @@
   font-size: 0.9rem;
 }
 
+div.list_area {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 50%;
+  height: auto;
+}
+
+h2#main_title {
+  font-size: 2rem;
+  margin: 10px auto;
+  width: 50%;
+  padding-top: 30px;
+}
+
+.fa-pen-nib {
+  font-size: 1.8rem;
+  margin-right: 10px;
+  color: #4a148c;
+}
+
 body {
   position: absolute;
   left: 0;
@@ -19,7 +41,7 @@ table {
   justify-content: center;
 }
 
-h2 {
+h2#board_title {
   font-size: 1.3rem;
   text-align: left;
   padding: 10px;
@@ -119,7 +141,8 @@ button:hover {
 }
 
 @media (max-width: 980px) {
-  .board_list_wrap {
+  .board_list_wrap,
+  h2#main_title {
     width: 90%;
   }
 }

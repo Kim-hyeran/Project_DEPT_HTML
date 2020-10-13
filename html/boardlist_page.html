@@ -5,13 +5,14 @@
   <meta charset="utf-8" />
   <title>Board List</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" media="screen" href="../css/boardlist_style.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../styles/boardlist_style.css" />
   <script src="https://kit.fontawesome.com/c2f525edad.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <h2 id="main_title" onClick="location.href='mainboard_page.html'"><i class="fas fa-pen-nib"></i>언어·문학</h2>
   <div class="board_list_wrap">
-    <h2>자유게시판</h2>
+    <h2 id="board_title">자유게시판</h2>
     <table class="board_list">
       <thead>
         <tr>
@@ -24,34 +25,69 @@
       </thead>
       <tbody>
         <tr>
-          <td>4</td>
-          <td class="board_title"><a href="#">오늘은 화요일입니다</a></td>
-          <td>요일알림봇</td>
+          <td>9</td>
+          <td class="board_title" onClick="location.href='boardcontents_page.html'">명왕성에서 온 이메일</td>
+          <td>장이지</td>
           <td>20-10-06</td>
-          <td>0</td>
+          <td>83</td>
         </tr>
         <tr>
-          <td>3</td>
-          <td class="board_title"><a href="#">자바 스크립트 5초 완성</a></td>
-          <td>그런거없다</td>
-          <td>20-08-04</td>
+          <td>8</td>
+          <td class="board_title"><a href="#">즐거운 편지</a></td>
+          <td>황동규</td>
+          <td>20-08-27</td>
           <td>6</td>
         </tr>
         <tr>
-          <td>2</td>
+          <td>7</td>
           <td class="board_title">
-            <a href="#">왜 안되지 소모임 회원 모집공고</a>
+            <a href="#">The Cloths of Heaven</a>
           </td>
-          <td>외않되</td>
+          <td>William Butler Yeats</td>
           <td>20-08-03</td>
           <td>10</td>
         </tr>
         <tr>
+          <td>6</td>
+          <td class="board_title"><a href="#">꽃이 진다고 그대를 잊은 적 없다</a></td>
+          <td>정호승</td>
+          <td>20-07-30</td>
           <td>1</td>
-          <td class="board_title"><a href="#">안녕하세요</a></td>
-          <td>반갑습니다</td>
-          <td>20-08-01</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td class="board_title"><a href="#">나의 자랑 이랑</a></td>
+          <td>김승일</td>
+          <td>20-07-18</td>
+          <td>29</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td class="board_title"><a href="#">Bright Star</a></td>
+          <td>John Keats</td>
+          <td>20-06-23</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="board_title"><a href="#">눈사람 자살사건</a></td>
+          <td>최승호</td>
+          <td>20-06-07</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="board_title"><a href="#">다람다람 다람쥐</a></td>
+          <td>박목월</td>
+          <td>20-05-25</td>
+          <td>5</td>
+        </tr>
+        <tr>
           <td>1</td>
+          <td class="board_title"><a href="#">Morgens und abends zu lesen</a></td>
+          <td>Bertolt Brecht</td>
+          <td>20-04-08</td>
+          <td>66</td>
         </tr>
       </tbody>
     </table>
@@ -61,12 +97,12 @@
         <a class="search_btn"><i class="fas fa-search"></i></a>
       </div>
       <div class="write_btn">
-        <button>글쓰기</button>
+        <button onClick="location.href='boardwrite_page.html'">글쓰기</button>
       </div>
     </div>
     <div class="paging">
       <a href="#"><i class="fas fa-angle-left"></i></a>
-      <a href="#">1</a>
+      <a href="#"><b>1</b></a>
       <a href="#">2</a>
       <a href="#">3</a>
       <a href="#">4</a>
